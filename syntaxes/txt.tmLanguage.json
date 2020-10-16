@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.txt",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\#[MSG|MSGCLEAR|FADE|WAIT|BGSET|BGMPLAY|MSGWINDOW_ON|BUSET|BUSET2|WFOUT|EVENTEND|SHAKE]+"
 			}]
 
 		},
