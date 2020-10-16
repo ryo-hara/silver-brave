@@ -1,0 +1,25 @@
+{
+    "name": "silver-brave",
+    "displayName": "silver-brave",
+    "description": "silver-brave-ASsupport",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "txt",
+            "aliases": ["AdditionalScript", "txt"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "txt",
+            "scopeName": "source.txt",
+            "path": "./syntaxes/txt.tmLanguage.json"
+        }]
+    }
+}
