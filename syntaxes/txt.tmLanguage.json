@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -27,6 +30,12 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"comments":{
+			"patterns": [{
+				"name": "comment.control.txt",
+				"match": "//.*$"
+			}]
 		}
 	},
 	"scopeName": "source.txt"
