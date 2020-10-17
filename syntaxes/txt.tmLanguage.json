@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.txt",
-					"match": "\\#[MSG|MSGCLEAR|FADE|WAIT|BGSET|BGMPLAY|MSGWINDOW_ON|BUSET|BUSET2|WFOUT|EVENTEND|SHAKE]+"
+					"match": "\\#[MSG|MSGCLEAR|FADE|WAIT|BGSET|BGMPLAY|MSGWINDOW_ON|BUSET|BUSET2|WFOUT|EVENTEND|SHAKE|LABELJUMP]+"
 				},
 				{
 					"name": "keyword.identificationNumber.txt",
@@ -30,6 +30,10 @@
 				{
 					"name": "keyword.commma.txt",
 					"match": ","
+				},
+				{
+					"name": "keyword.voiceid.txt",
+					"match": "[a-zA-Z0-9]+_[0-9]+_[0-9]+"
 				}
 			]
 
