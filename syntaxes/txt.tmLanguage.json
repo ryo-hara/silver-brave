@@ -26,6 +26,10 @@
 				{
 					"name": "keyword.number.txt",
 					"match": "[0-9]+"
+				},
+				{
+					"name": "keyword.commma.txt",
+					"match": ","
 				}
 			]
 
